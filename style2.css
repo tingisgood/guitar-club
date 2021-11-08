@@ -1,0 +1,194 @@
+html{	
+	box-sizing:border-box;
+	}
+    *,*::before,*::after{
+        box-sizing: inherit;
+        }
+	body{
+	margin:0 auto;
+	}
+
+.container{
+    margin:0;
+    width: 1440px;
+    height:3980px;
+    
+}
+
+.topic{
+    max-width: 730px;
+    max-height: 148px;
+    overflow: hidden;
+}
+
+.menu{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6F4F32;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 770px;
+    margin-top: 25px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftg{
+    max-width: 400px;
+    max-height: 600px;
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+
+.rightg{
+    max-width: 520px;
+    max-height: 325px;
+    margin-bottom: 34px;
+}
+
+.gevent{
+    max-width: 521px;
+    max-height: 239px;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.wel{
+    max-width: 987px;
+    max-height: 981px;
+    
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.gweek{
+    max-width: 987px;
+    max-height: 981px;
+    
+}
+
+.guitarweek{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.rperform{
+    max-width: 987px;
+    max-height: 728px;
+    
+}
+
+.resultperform{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cm{
+    display: flex;
+    justify-content: center;
+}
+
+.commute{
+    width:400px;
+    height: 70px;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-style: solid;
+    display:flex;
+    justify-self:space-between;
+    justify-content: center;
+    color: #653f1c;
+    }
+    .follow{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-top: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    }
+    .fb{
+    max-width:50px;
+    max-height:50px;
+    margin-top: 5px;
+    margin-left: 15px;
+    }
+    .fb:hover{
+    border-radius: 100px;
+    background-color: #653f1c;
+    }
+    .ig{
+    max-width:50px;
+    max-height:50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    }
+    .ig:hover{
+    border-radius: 40px;
+    background-color: #653f1c;
+    }
+    .tw{
+    max-width:50px;
+    max-height:50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    }
+    .tw:hover{
+    border-radius: 40px;
+    background-color: #653f1c;
+    }
+    .yt{
+    max-width:50px;
+    max-height:50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    }
+    .yt:hover{
+    border-radius: 40px;
+    background-color:  #653f1c;
+    }
+    
+    .down{
+    display: flex;
+    flex-direction: row;
+    }
+   
+    .space{
+        width:0px;
+        
+       
+    }
+
+    .ft{
+        margin-top: 50px;
+        max-width: 1440px;
+        max-height: 126px;
+        display: flex;
+        justify-content: start;
+    }
